@@ -1,0 +1,335 @@
+/* ---------- HOME PAGE ---------- */
+body {
+    background-image: url('../imagens/background-img.jpg') ;
+}
+
+/* ---------- header ---------- */
+header a {
+    color: #f1ece4;
+}
+
+.logo {
+    max-width: 60%;
+}
+
+.logodiv{
+    width:20%;
+    margin: auto;
+}
+
+/* ---------- nav ---------- */
+ul li {
+    display: inline-block;
+    padding: 20px;
+    width: 10%;
+}
+
+ul{
+    text-align:center;
+    background-color: #6b8f71;
+    font-family: "Libre Baskerville", serif;
+}
+
+/* ---------- Main ---------- */
+
+.main-container {
+    background-color: #b4a2c86e;
+    padding: 40px 0;
+    width: 100%;
+    display: block;
+}
+
+.banner {
+    text-align: center;
+    font-family: "Libre Baskerville",serif;
+    padding: 30px 0;
+}
+
+.banner-left,
+.banner-right {
+    display: inline-block;
+    vertical-align: middle;
+    width: 45%;
+    text-align: left;
+}
+
+.banner-left h1 {
+    font-size: 30px;
+    margin: 0;
+}
+
+.banner-left h2 {
+    font-size: 15px;
+    margin: 10px 0 20px;
+}
+
+.banner-right img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #a2c3a4;
+    border: 5px double #f1ece4;
+    border-radius: 20px;
+    font-family: "Libre Baskerville",serif;
+    font-size: 15px;
+    padding: 10px 20px;
+}
+
+button:hover {
+    background-color: #6b8f71;
+}
+
+a:hover {
+    color: black;
+}
+
+.sobre {
+    text-align: center;
+    background-image: url(../imagens/backgroundgreen.jpg);
+    height: 150px;
+    padding: 40px;
+}
+
+.sobre-titulo {
+    width: 60%;
+    margin: 20px auto;
+    text-align: center;
+    font-family: "Libre Baskerville", serif;
+    font-size: 16px;
+}
+
+.sobre-texto {
+    width: 60%;
+    margin: 20px auto;
+    text-align: center;
+    font-family: "Libre Baskerville", serif;
+    font-size: 16px;
+}
+
+.servico-titulo {
+    text-align: center;
+    font-size: 17px;
+    margin-top: 40px;
+    font-family: "Libre Baskerville", serif;
+}
+
+.servico-div {
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.servico {
+    display: inline-block;
+    width: 25%;
+    margin: 0 10px;
+    font-size: 12px;
+    font-family: "Libre Baskerville", serif;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.servico img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.butao {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+/* ---------- Footer ---------- */
+
+footer {
+
+    max-width: 100%;
+    background-color: #a2c3a4a2;
+    padding: 10px 0 5px;
+    text-align: center;
+}
+
+.footdiv {
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.metade1,
+.metade2,
+.metade3 {
+    display: inline-block;
+    vertical-align: top; /* Alinha cada div ao topo da caixa .footdiv*/
+    width: 25%;
+    min-width: 160px;
+    text-align: left;
+    font-family: "Zen Loop", cursive;
+    padding: 0 10px;
+    margin: 0 20px;
+}
+
+.metade2,
+.metade3 {
+    font-size: 20px;
+}
+
+.metade1 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.rights {
+    text-align: center;
+    color: #6b8f71;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+/* ---------- Sobre nós ---------- */
+
+.about-content {
+    max-width: 100%;
+}
+
+.about-text-box {
+    display: inline-block;
+    width: 50%;
+    margin: 10px 0 80px;
+    padding: 40px;
+    font-family: "Libre Baskerville", serif;
+    color: #2a2a2a;
+    font-size: 16px;
+    line-height: 1.6; /* Altera a distancia entre linhas*/
+    text-align: center;
+}
+
+.about-img {
+    max-width: 40%;
+    float: right;
+    padding-top: 50px;
+    padding-right: 30px;
+    border-radius: 60%;
+}
+
+/* ---------- Serviços ---------- */
+
+.servicos {
+    text-align: center;
+    background-color: #f1ece4cc;
+    padding: 40px;
+    font-family: "Libre Baskerville", serif;
+}
+
+.servicos h1 {
+    font-family: "Zen Loop", cursive;
+    font-size: 32px;
+    color: #333360;
+    margin-bottom: 30px;
+}
+
+.tabela-servicos {
+    margin: 0 auto;
+    width: 80%;
+    border-collapse: collapse; /*Remove os espaços dentro da border*/
+    background-color: #ffffffdd;
+    border-radius: 10px;
+}
+
+.tabela-servicos th,
+.tabela-servicos td {
+    padding: 15px 20px;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+    font-size: 15px;
+}
+
+.tabela-servicos th {
+    background-color: #b4a2c8;
+    color: white;
+    font-weight: bold;
+}
+
+.tabela-servicos tr:hover {
+    background-color: #f9f6f2;
+}
+
+a  {
+    text-decoration: none;
+}
+
+
+/* ---------- Contactos ---------- */
+
+.contacts {
+    text-align: center;
+    padding: 40px;
+    font-family: "Libre Baskerville", serif;
+}
+
+.contactos h1 {
+    font-family: "Zen Loop", cursive;
+    font-size: 32px;
+    color: #333360;
+    margin-bottom: 30px;
+}
+
+.formulario {
+    display: inline-block;
+    text-align: left;
+    padding: 20px;
+    background-color: #b4a2c86e;
+    border-radius: 15px;
+    margin-bottom: 30px auto;
+}
+
+.formulario input,
+.formulario textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-family: "Libre Baskerville", serif;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.formulario label {
+    display: inline-block;
+    margin-right: 20px;
+    font-family: "Libre Baskerville", serif;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.info-contacto {
+    margin: 30px 0;
+    font-size: 16px;
+    font-family: "Libre Baskerville", serif;
+}
+
+.info-contacto a {
+    color: #333360;
+}
+
+.socials {
+    margin-top: 20px;
+}
+
+.socials a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.socials img {
+    width: 50px;
+    height: 50px;
+}
